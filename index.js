@@ -8,7 +8,7 @@ server.use(cors());
 server.use("/api/posts", postsRouter);
 
 server.get("/", (req, res) => {
-  res.send(`<h2>It's working</h2>`);
+  res.send(`<h2>Hello World</h2>`);
 });
 
 const port = 5000;
